@@ -9,6 +9,8 @@ import { TestPage } from '../pages/test/test';
 import { ActionSheetPage } from '../pages/action-sheets/action-sheets';
 import { AlertPage } from '../pages/alerts/alerts';
 import { BadgePage } from '../pages/badges/badges';
+import { ButtonPage } from '../pages/buttons/buttons';
+import { CardPage } from '../pages/cards/cards';
 
 @Component({
   templateUrl: 'app.html'
@@ -31,6 +33,8 @@ export class MyApp {
       { title: 'ActionSheet', component: ActionSheetPage },
       { title: 'Alert', component: AlertPage },
       { title: 'Badge', component: BadgePage },
+      { title: 'Button', component: ButtonPage },
+      { title: 'Card', component: CardPage },
     ];
 
   }

@@ -11,6 +11,7 @@ import { AlertPage } from '../pages/alerts/alerts';
 import { BadgePage } from '../pages/badges/badges';
 import { ButtonPage } from '../pages/buttons/buttons';
 import { CardPage } from '../pages/cards/cards';
+import { CheckboxPage } from '../pages/checkbox/checkbox';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -26,6 +27,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BadgePage,
     ButtonPage,
     CardPage,
+    CheckboxPage,
   ],
   imports: [
     BrowserModule,
@@ -42,6 +44,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BadgePage,
     ButtonPage,
     CardPage,
+    CheckboxPage,
   ],
   providers: [
     StatusBar,

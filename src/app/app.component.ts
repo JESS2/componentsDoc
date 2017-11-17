@@ -11,6 +11,7 @@ import { AlertPage } from '../pages/alerts/alerts';
 import { BadgePage } from '../pages/badges/badges';
 import { ButtonPage } from '../pages/buttons/buttons';
 import { CardPage } from '../pages/cards/cards';
+import { CheckboxPage } from '../pages/checkbox/checkbox';
 
 @Component({
   templateUrl: 'app.html'
@@ -35,6 +36,7 @@ export class MyApp {
       { title: 'Badge', component: BadgePage },
       { title: 'Button', component: ButtonPage },
       { title: 'Card', component: CardPage },
+      { title: 'Checkbox', component: CheckboxPage },
     ];
 
   }

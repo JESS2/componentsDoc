@@ -1,10 +1,13 @@
 <ion-header>
     <ion-navbar>
-      <ion-title>Action Sheets</ion-title>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Action Sheets</ion-title>
     </ion-navbar>
   </ion-header>
   
-  <ion-content padding class="action-sheets-page">
+  <ion-content padding class="page-action-sheets">
     <button ion-button block (click)="openMenu()">
       Show Action Sheet
     </button>

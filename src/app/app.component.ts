@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { TestPage } from '../pages/test/test';
 import { ActionSheetPage } from '../pages/action-sheets/action-sheets';
+import { AlertPage } from '../pages/alerts/alerts';
 
 @Component({
   templateUrl: 'app.html'
@@ -27,6 +28,7 @@ export class MyApp {
       { title: 'List', component: ListPage },
       { title: 'Test', component: TestPage },
       { title: 'ActionSheet', component: ActionSheetPage },
+      { title: 'Alert', component: AlertPage },
     ];
 
   }

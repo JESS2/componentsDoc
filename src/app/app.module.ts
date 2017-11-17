@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { TestPage } from '../pages/test/test';
 import { ActionSheetPage } from '../pages/action-sheets/action-sheets';
+import { AlertPage } from '../pages/alerts/alerts';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -18,6 +19,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     TestPage,
     ActionSheetPage,
+    AlertPage,
   ],
   imports: [
     BrowserModule,
@@ -30,6 +32,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     TestPage,
     ActionSheetPage,
+    AlertPage,
   ],
   providers: [
     StatusBar,

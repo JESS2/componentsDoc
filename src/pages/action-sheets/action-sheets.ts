@@ -15,10 +15,10 @@ export class ActionSheetPage {
       title: '작업 선택',
       buttons: [
         {
-            text: '수정',
-            handler: () => {
-              console.log('수정 clicked');
-            }
+          text: '수정',
+          handler: () => {
+            console.log('수정 clicked');
+          }
         },{
           text: '삭제',
           role: 'destructive',

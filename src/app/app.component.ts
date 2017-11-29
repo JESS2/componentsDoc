@@ -12,6 +12,9 @@ import { BadgePage } from '../pages/badges/badges';
 import { ButtonPage } from '../pages/buttons/buttons';
 import { CardPage } from '../pages/cards/cards';
 import { CheckboxPage } from '../pages/checkbox/checkbox';
+import { DatetimePage } from '../pages/datetime/datetime';
+import { IconPage } from '../pages/icon/icon';
+import { InputPage } from '../pages/input/input';
 
 @Component({
   templateUrl: 'app.html'
@@ -37,6 +40,9 @@ export class MyApp {
       { title: 'Button', component: ButtonPage },
       { title: 'Card', component: CardPage },
       { title: 'Checkbox', component: CheckboxPage },
+      { title: 'Datetime', component: DatetimePage },
+      { title: 'Icon', component: IconPage },
+      { title: 'Input', component: InputPage },
     ];
 
   }

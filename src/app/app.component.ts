@@ -15,6 +15,8 @@ import { CheckboxPage } from '../pages/checkbox/checkbox';
 import { DatetimePage } from '../pages/datetime/datetime';
 import { IconPage } from '../pages/icon/icon';
 import { InputPage } from '../pages/input/input';
+import { HyoPage } from '../pages/hyo/hyo';
+
 
 @Component({
   templateUrl: 'app.html'
@@ -43,6 +45,7 @@ export class MyApp {
       { title: 'Datetime', component: DatetimePage },
       { title: 'Icon', component: IconPage },
       { title: 'Input', component: InputPage },
+      { title: 'Hyo', component: HyoPage },
     ];
 
   }

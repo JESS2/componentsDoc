@@ -15,6 +15,7 @@ import { CheckboxPage } from '../pages/checkbox/checkbox';
 import { DatetimePage } from '../pages/datetime/datetime';
 import { IconPage } from '../pages/icon/icon';
 import { InputPage } from '../pages/input/input';
+import { HyoPage } from '../pages/hyo/hyo';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -34,6 +35,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DatetimePage,
     IconPage,
     InputPage,
+    HyoPage,
   ],
   imports: [
     BrowserModule,
@@ -54,6 +56,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DatetimePage,
     IconPage,
     InputPage,
+    HyoPage,
   ],
   providers: [
     StatusBar,
